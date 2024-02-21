@@ -2,7 +2,7 @@ import React from "react"
 
 const Home = () => {
   return(
-    <>
+    <div class="p-8">
         <header id='Header'>
      <nav  class="flex justify-between items-center">
       
@@ -43,7 +43,7 @@ const Home = () => {
     </div>
     
     <div>
-       <img class='flex items-center justify-center w-full' src="img/headerIMG.jpeg">
+       <img class='flex items-center justify-center w-full' src="img/Header.jpeg">
             </img>
     
     </div>
@@ -54,7 +54,7 @@ const Home = () => {
      </div>
      
     </header>
-    </>
+    </div>
     
   )
 }
